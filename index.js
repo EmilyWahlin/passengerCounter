@@ -10,6 +10,7 @@ function increment() {
 
 function save () {
 	let countString = count + " - "
-
 	saveElement.textContent += countString
+	countElement.textContent = 0
+	count = 0
 }
